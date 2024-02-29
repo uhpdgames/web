@@ -1,0 +1,183 @@
+<!-- twig -->
+
+
+<table align="center" bgcolor="#3d5b2d" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;background-color:#f2f2f2;width:100%!important;font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px" width="100%">
+	<tbody>
+	<tr >
+		<td align="center" style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" style="border: 1px solid #3d5b2d;  padding: 25px; border-radius: 25px;background:#fff; margin-top: 50px;margin-bottom: 15px;" width="900" >
+				<tbody style="background:#fff;">
+				<tr style="background:#fff;">
+					<td align="center" id="m_-6357629121201466163headerImage" valign="bottom">
+						<table cellpadding="0" cellspacing="0" style="border-bottom:2px solid ' . $emailer->getEmail('color') . ';padding-bottom:10px;background-color:#fff" width="100%">
+							<tbody>
+							<tr>
+								<td bgcolor="#FFFFFF" style="padding:0" valign="top" width="100%">
+									<div style="display:flex;justify-content:space-between;align-items:center;">
+										<table style="width:100%;">
+											<tbody>
+											<tr>
+												<td>
+													<a href="' . $emailer->getEmail('home') . '" style="border:medium none;text-decoration:none;color:#007ed3;margin:0px 0px 0px 20px" target="_blank">
+														{{logo}}
+													</a>
+												</td>
+												<td style="padding:15px 20px 0 0;text-align:right">
+													{{social}}
+												</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+
+					</td>
+				</tr>
+				<!-- đường line -->
+
+				<tr style="background:#fff">
+					<td align="left" height="auto" style="padding:15px" width="900">
+						<table style="width:100%;">
+							<tbody>
+							<tr>
+								<td>
+									<p style="margin:4px 0;font-family:Roboto,sans-serif;font-size:14px;color:#444;line-height:18px;font-weight:bold">
+										Xin chào: {{hoten}}</p>
+									<p style="margin:4px 0;font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal">
+										Đơn hàng # {{madonhang}} của bạn đã đặt hàng thành công<br/>
+										<span style="font-size:12px;color:#777;text-transform:none;font-weight:normal">(Ngày {{date}} tháng {{month}} năm
+											{{year}})
+										</span>
+									</p>
+
+									<h3 style="font-size:16px;font-weight:bold;color:' . $emailer->getEmail('color') . ';text-transform:uppercase;margin:20px 0 0 0;padding: 0 0 5px;border-bottom:1px solid #3d5b2d">Thông tin đơn hàng</h3>
+								</td>
+							</tr>
+							<tr>
+								<td style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<thead>
+										<tr>
+											<th align="left" style="padding:6px 9px 0px 0px;font-family:Roboto,sans-serif;font-size:12px;color:#444;font-weight:bold" width="50%"></th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+											<td style="margin: 0;padding: 0;border-top:0;font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal" valign="top">
+
+												<ul style="margin: 0;padding: 0; list-style-type: none;">
+													<li><span style="text-transform:capitalize">{{Hoten}}</span></li>
+													<li><a href="mailto:' . $email . '" target="_blank">{{Email}}</a></li>
+													<li><span style="text-transform:capitalize">{{Dienthoai}}</span></li>
+													<li><span style="text-transform:capitalize">{{Diachi}}</span></li>
+												</ul>
+											</td>
+
+										</tr>
+										<tr>
+											<td colspan="2" style="padding:0;border-top:0;font-family:Roboto,sans-serif;font-size:12px;color:#444" valign="top">
+												<p style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal"><strong>Hình thức thanh toán: </strong> {{hinhthucthanhtoan}}
+													<br><strong>Phí vận chuyển: </strong> {{ship}}
+											</td>
+										</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2 style="text-align:left;margin:10px 0;border-bottom:1px solid #3d5b2d;padding-bottom:5px;font-size:16px;color:' . $emailer->getEmail('color') . '">ĐỊA CHỈ NHẬN HÀNG</h2>
+
+									<ul style="margin: 0;padding: 0; list-style-type: none;">
+										<li>
+											<span style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal"> {{hinhthucthanhtoan}}
+										</li>
+										<li>
+											<span style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal"> {{Hoten}}
+										</li>
+										<li>
+											<span style="font-family:Roboto,sans-serif;font-size:12px;color:#444;line-height:18px;font-weight:normal"> {{diachinhanhang}}
+										</li>
+									</ul>
+									<!-- <div style="margin:auto;text-align:center"><a href="' . $emailer->getEmail('home') . '" style="display:inline-block;text-decoration:none;background-color:' . $emailer->getEmail('color') . '!important;text-align:center;border-radius:25px;color:#fff;padding:5px 25px;font-size:12px;font-weight:bold;margin-top:5px" target="_blank">Chi tiết đơn hàng tại ' . $emailer->getEmail('company:website') . '</a></div> -->
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2 style="text-align:left;margin:10px 0;border-bottom:1px solid #3d5b2d;padding-bottom:5px;font-size:16px;color:' . $emailer->getEmail('color') . '">CHI TIẾT ĐƠN HÀNG</h2>
+
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<thead>
+										<tr style="background-color: #3d5b2d">
+											<th align="left" dddbgcolor="' . $emailer->getEmail('color') . '" style="padding: 15px 20px;color:#fff;font-family:Roboto,sans-serif;font-size:15px;line-height:14px;border-radius: 15px 0 0 0;">Sản phẩm</th>
+											<th align="left" dddbgcolor="' . $emailer->getEmail('color') . '" style="padding: 15px 20px;color:#fff;font-family:Roboto,sans-serif;font-size:15px;line-height:14px">Đơn giá</th>
+											<th align="center" dddbgcolor="' . $emailer->getEmail('color') . '" style="padding: 15px 20px;color:#fff;font-family:Roboto,sans-serif;font-size:15px;line-height:14px;min-width:55px;">Số lượng</th>
+											<th align="right" dddbgcolor="' . $emailer->getEmail('color') . '" style="padding: 15px 20px;color:#fff;font-family:Roboto,sans-serif;font-size:15px;line-height:14px;border-radius: 0 15px 0 0;">Tổng tạm</th>
+										</tr>
+										</thead>
+										{{chitietdonhang}}
+									</table>
+									<!-- dùng vòng lặp for trên twig -->
+									<!-- dùng twig load nội dung -->
+									{% for item in items %}
+										{{ item }}
+									{% endfor %}
+							<tbody>
+
+							<!-- <div style="margin:auto;text-align:center"><a href="' . $emailer->getEmail('home') . '" style="display:inline-block;text-decoration:none;background-color:' . $emailer->getEmail('color') . '!important;text-align:center;border-radius:25px;color:#fff;padding:5px 25px;font-size:12px;font-weight:bold;margin-top:5px" target="_blank">Chi tiết đơn hàng tại ' . $emailer->getEmail('company:website') . '</a></div> -->
+					</td>
+
+				</tr>
+
+				<tr>
+					<td>&nbsp;
+						<p style="font-style:italic;font-family: Roboto,sans-serif; font-size: 12px; color: #808080;  font-weight: lighter;  padding: 0;list-style-type: none; text-align: center;width: 800px;margin: auto; ">
+							Cảm ơn bạn tin  chọn sản phẩm <br/>
+							Chúc bạn có những trải nghiệm tuyệt vời khi mua sắm tại {{company:website}}
+						</p>
+						<p style="font-style:italic;font-family: Roboto,sans-serif; font-size: 12px; color: #808080;  font-weight: lighter;  padding: 0;list-style-type: none; text-align: center;width: 800px;margin: auto; ">Trân trọng,</p>
+						<p style="font-style:italic;font-family: Roboto,sans-serif; font-size: 14px; color: #808080;  font-weight: bold;  padding: 0; list-style-type: none; text-align: center; width: 800px;margin: auto; ">Đội ngũ Cty TNHH Bluepink</p>
+						<p style="font-style:italic;font-family: Roboto,sans-serif; font-size: 12px; color: #808080;  font-weight: lighter;  padding: 0;list-style-type: none; text-align: center;width: auto;margin: auto; ">
+							Bạn có thắc mắc? Liên hệ chúng tôi qua <a href="mailto:' . $emailer->getEmail('company:email') . '" style="color:' . $emailer->getEmail('color') . ';text-decoration:none" target="_blank"> <strong>{{company:email}}</strong> </a>, hoặc gọi về hotline <strong style="color:' . $emailer->getEmail('color') . '">
+								{{company:hotline}}
+							</strong>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	</tbody>
+</table>
+</td>
+</tr>
+<tr>
+	<td align="center">
+		<table width="900">
+			<tbody>
+			<tr>
+				<td>
+					<p align="left" style="font-family: Roboto,sans-serif; font-size: 10px; line-height: 15px; color: #787675; padding: 10px 0; margin: 0px; font-weight: normal;">Quý khách nhận được email này vì đã mua hàng tại {{company:website}}.<br>
+						Để chắc chắn luôn nhận được email thông báo, xác nhận mua hàng từ {{company:website}}, quý khách vui lòng thêm địa chỉ <strong><a href="mailto:' . $emailer->getEmail('email') . '" target="_blank">
+								{{company:email}}
+							</a></strong> vào số địa chỉ (Address Book, Contacts) của hộp email.<br>
+					</p>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+</tbody>
+</table>
+
+

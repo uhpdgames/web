@@ -1,0 +1,44 @@
+{ 
+	"sample": {
+		"ten": "Bộ Sample Mini",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "sample"
+	},
+	"tote": {
+		"ten": "Túi Vải Canvas CKD",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "tote-1"
+	},
+	"tote-1": {
+		"ten": "Túi Vải Canvas CKD",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "tote-2"
+	},
+	"gaubong": {
+		"ten": "Gấu Bông CKD",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "gau-bong"
+	},
+	"serum": {
+		"ten": "Serum trị thâm",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "serum"
+	},
+	"sotay": {
+		"ten": "Sổ tay da",
+		"des": "",
+		"num": 1,
+		"price": "0",
+		"img": "sotay"
+	}
+}

@@ -1,0 +1,129 @@
+<table style="margin: 0; padding: 0; background-color: #f2f2f2; width: 100%; font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#3d5b2d">
+<tbody>
+<tr>
+<td style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;" align="center" valign="top">
+<table style="border: 1px solid #3d5b2d; padding: 25px; border-radius: 25px; background: #fff; margin-top: 50px; margin-bottom: 15px;" border="0" width="900" cellspacing="0" cellpadding="0">
+<tbody style="background: #fff;">
+<tr style="background: #fff;">
+<td align="center" valign="bottom">
+<table style="border-bottom: 2px solid #444; padding-bottom: 10px; background-color: #fff;" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 0;" valign="top" bgcolor="#FFFFFF" width="100%">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td><a style="text-decoration: none; color: #007ed3; margin: 0px 0px 0px 20px;" href="https://ckdvietnam.com/" target="_blank" rel="noopener"> {{ logo }} </a></td>
+<td style="padding: 15px 20px 0 0; text-align: right;">{{ social }}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="background: #fff;">
+<td style="padding: 15px;" align="left" width="900" height="auto">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td>
+<p style="margin: 4px 0; font-family: Roboto,sans-serif; font-size: 14px; color: #444; line-height: 18px; font-weight: bold;">Xin ch&agrave;o: {{ hoten }}</p>
+<p style="margin: 4px 0; font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;">Đơn h&agrave;ng # {{ madonhang }} của bạn đ&atilde; đặt h&agrave;ng th&agrave;nh c&ocirc;ng<br><span style="font-size: 12px; color: #777; text-transform: none; font-weight: normal;">(Ng&agrave;y {{ date('d') }} th&aacute;ng {{ date('m') }} năm {{ date('Y') }}) </span></p>
+<h3 style="font-size: 16px; font-weight: bold; color: #444; text-transform: uppercase; margin: 20px 0 0 0; padding: 0 0 5px; border-bottom: 1px solid #3d5b2d;">Th&ocirc;ng tin đơn h&agrave;ng</h3>
+</td>
+</tr>
+<tr>
+<td style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th style="padding: 6px 9px 0px 0px; font-family: Roboto,sans-serif; font-size: 12px; color: #444; font-weight: bold;" align="left" width="50%">&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="margin: 0; padding: 0; border-top: 0; font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;" valign="top">
+<ul>
+<li>{{ hoten }}</li>
+<li><a href="mailto:{{ email }}" target="_blank" rel="noopener">{{ email }}</a></li>
+<li>{{ dienthoai }}</li>
+<li>{{ diachi }}</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="padding: 0; border-top: 0; font-family: Roboto,sans-serif; font-size: 12px; color: #444;" colspan="2" valign="top">
+<p style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;"><strong>H&igrave;nh thức thanh to&aacute;n: </strong> {{ hinhthucthanhtoan }} <br><strong>Ph&iacute; vận chuyển: </strong> {{ feeship }}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<h2 style="text-align: left; margin: 10px 0; border-bottom: 1px solid #3d5b2d; padding-bottom: 5px; font-size: 16px; color: #444;">ĐỊA CHỈ NHẬN H&Agrave;NG</h2>
+<ul style="margin: 0; padding: 0; list-style-type: none;">
+<li><span style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;"> {{ hinhthucthanhtoan }} </span></li>
+<li><span style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;"> {{ hoten }} </span></li>
+<li><span style="font-family: Roboto,sans-serif; font-size: 12px; color: #444; line-height: 18px; font-weight: normal;"> {{ diachi }} </span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2 style="text-align: left; margin: 10px 0; border-bottom: 1px solid #3d5b2d; padding-bottom: 5px; font-size: 16px; color: #444;">CHI TIẾT ĐƠN H&Agrave;NG</h2>
+{{ chitietdonhang }}
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<thead>
+<tr style="background-color: #3d5b2d;">
+<th style="padding: 15px 20px; color: #fff; font-family: Roboto,sans-serif; font-size: 15px; line-height: 14px; border-radius: 15px 0 0 0;" align="left">Sản phẩm</th>
+<th style="padding: 15px 20px; color: #fff; font-family: Roboto,sans-serif; font-size: 15px; line-height: 14px;" align="left">Đơn gi&aacute;</th>
+<th style="padding: 15px 20px; color: #fff; font-family: Roboto,sans-serif; font-size: 15px; line-height: 14px; min-width: 55px;" align="center">Số lượng</th>
+<th style="padding: 15px 20px; color: #fff; font-family: Roboto,sans-serif; font-size: 15px; line-height: 14px; border-radius: 0 15px 0 0;" align="right">Tổng tạm</th>
+</tr>
+</thead>
+</table>
+{% for item in items %} {{ item }} {% endfor %}</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>
+<p style="font-style: italic; font-family: Roboto,sans-serif; font-size: 12px; color: #808080; font-weight: lighter; padding: 0; list-style-type: none; text-align: center; width: 800px; margin: auto;">Cảm ơn bạn tin chọn sản phẩm <br>Ch&uacute;c bạn c&oacute; những trải nghiệm tuyệt vời khi mua sắm tại {{ website }}</p>
+<p style="font-style: italic; font-family: Roboto,sans-serif; font-size: 12px; color: #808080; font-weight: lighter; padding: 0; list-style-type: none; text-align: center; width: 800px; margin: auto;">Tr&acirc;n trọng,</p>
+<p style="font-style: italic; font-family: Roboto,sans-serif; font-size: 14px; color: #808080; font-weight: bold; padding: 0; list-style-type: none; text-align: center; width: 800px; margin: auto;">Đội ngũ Cty TNHH Bluepink</p>
+<p style="font-style: italic; font-family: Roboto,sans-serif; font-size: 12px; color: #808080; font-weight: lighter; padding: 0; list-style-type: none; text-align: center; width: auto; margin: auto;">Bạn c&oacute; thắc mắc? Li&ecirc;n hệ ch&uacute;ng t&ocirc;i qua <a style="color: #444; text-decoration: none;" href="mailto:{{ email }}" target="_blank" rel="noopener"> <strong>{{ email }}</strong> </a>, hoặc gọi về hotline <strong style="color: #444;"> {{ hotline }} </strong></p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center">
+<table width="900">
+<tbody>
+<tr>
+<td>
+<p style="font-family: Roboto,sans-serif; font-size: 10px; line-height: 15px; color: #787675; padding: 10px 0; margin: 0px; font-weight: normal;" align="left">Qu&yacute; kh&aacute;ch nhận được email n&agrave;y v&igrave; đ&atilde; mua h&agrave;ng tại {{company:website}}.<br>Để chắc chắn lu&ocirc;n nhận được email th&ocirc;ng b&aacute;o, x&aacute;c nhận mua h&agrave;ng từ {{company:website}}, qu&yacute; kh&aacute;ch vui l&ograve;ng th&ecirc;m địa chỉ <a href="mailto:{{ email }}" target="_blank" rel="noopener"> {{email}} </a> v&agrave;o số địa chỉ (Address Book, Contacts) của hộp email.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

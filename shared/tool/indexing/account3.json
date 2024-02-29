@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ckd-vietnam",
+  "private_key_id": "86eecacb1f55d2b910cb485c9fafe5372a87c276",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCHwgk2Kh57xrhV\nQCZIwuG5UzOu3mvifqHOTZ2oNHerhO8K/Zor7lJ/WZXXO9CeUHU8zZXLS0xPy0ZZ\nzpuQDX3Tw696kZBoqmDMNFtDi23OpFG+gpUq9a/rZqZEHz6z/9r6D5GPCKLLqxHs\norKWZWIvdKsBxFnIJn6254OElD6MEBkK4in7Zw5KhZNLy+hraGGp6YySW7w7XGj3\nEvwr1Piy5IRdvLfI9lZxDb27vppP50uEx7Vx0vj+uPZ21YSXehx15s4geBsuX5Nl\niyuxwe1P8fMRekF0RI7zPjD3vcN0LGOI9qJPN9Ii6cKSQLCROyIhtloWemEvhv6d\nxit4+/zBAgMBAAECggEABOxhyqPU5q7ChR72NHnS11Z/35Xj6jsm8ZUphE3g0Cja\nRXcEhhbWyZUNZNifvHoVAl8/UTfaHOO1mbCvPhZrK4ijfsm0J8OUDpvQen7ePNoD\nN+pC8COoXVxj58ENVFhRT/PMFticlM/PrtoIqYEkQi3UPNRq4CIbQtVbFO4OZaRr\nSh7eOuH1i0LTr+bK72luan1l9ZDe2XyxSMBFvSSgVscOnEnOhMVmklgVnJcrKf5H\noN1oUHXmHIYIFMM8CbjwIgVDBClCS7CO+wNW0pF1BGZk6coqX1HG76/xWvYLaRC+\nh9ickLj8cX22xn3l/o5EIesXz9gQJYL6JuuGsEAQ0QKBgQC9Jwb/WxpEksM1vLBd\nGTpStwHWbm/cQzrr1MsVu3YdRKuCdYMw3O62orTynqGL/ld77AMtAPTxruNjDcqk\n4XtCXsG5n9zSnxoZX5qy48hQvMNIT4JPuPkYmVx/8Lsl3FrzSGkCIY/h75dOxD4Z\nshN85wHw9EVza3Fk85QPjBGhuQKBgQC3vE89gJX8IR0XAt8HWqZICy/UMf7y3F0v\nUcZhPNGfy+NIQivsKT6ndDsELmXQSX1TVmoXTj4SQLZozmP/n+rjJHw9kzzabn1H\nchKiOqa/FaD3sl53glqYT4AnycLIxd/cfbedgOIqJqYx+MCXaknL0tIq8BTHQGU7\n99XlxXdXSQKBgCyv2rRbVpJaxemdIWFtQ10lRTbesmisLXBnvm7s8dOqVIamso7J\ns0/Mksk69tl3Bj4NnRZ1wmiSs7/EE1rutksQzd3Hyciss+LItmiK7dk9LzmXJyck\ngRzxpmvHeL9SFt6g/cX2HeL30pxWOoGhk38PqGK/ouTIvmpmLVWa9tNpAoGBAKnu\nUwdZ1t4CrknrEOVXVLULC6hguSBa6SBrrGOggWwegU4CTWc1Wko7uJ2MYAP9BBlA\nsgxuBACTs2FJibkRaYe85d95Pu3zBJFAkrVSM4hFc8PDR5WWjT2TQb8K3skcIYhn\nCZx1aDd92XYcT9t6pVgK2vB1bXI/P6Hv/Pdu44ppAoGAIHnU67GlLAOu616anJjB\nzWXUct0A/ouRcCtqPfhbBacD5Kz3dvuAoKgdq40G07WOx3VQ17Z9zUdxMslsxzTE\n0wZ4LATQvXfr4+sw3RghrPCt4fTPu50GAitjFiYNXL7CEHRqOA9d8PV30ak0XYJ8\nrFyGG0aYsMlIS12/S0sXaVc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ckdvietnam@ckd-vietnam.iam.gserviceaccount.com",
+  "client_id": "100117306078291370786",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ckdvietnam%40ckd-vietnam.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

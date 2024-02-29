@@ -1,0 +1,862 @@
+{
+	"author": {
+		"name": "",
+		"email": "",
+		"timefinish": ""
+	},
+	"arrayDomainSSL": [
+		""
+	],
+	"database": {
+		"server-name": "localhost",
+		"url": "/",
+		"type": "mysql",
+		"host": "localhost",
+		"username": "ckdco645_ckdvietnam",
+		"password": ")aTbNxQ5@N)w",
+		"dbname": "ckdco645_ckdvietnam",
+		"port": 3306,
+		"prefix": "table_",
+		"charset": "utf8"
+	},
+	"website": {
+		"error-reporting": true,
+		"secret": "$@tyutgt",
+		"salt": "swKJjeS!t",
+		"pass_admin": "admin123",
+		"debug-developer": true,
+		"debug-css": true,
+		"debug-js": true,
+		"index": false,
+		"upload": {
+			"max-width": 1600,
+			"max-height": 1600
+		},
+		"lang": {
+			"vi": "Tiếng Việt",
+			"en": "Tiếng Anh",
+			"ko": "Tiếng Hàn"
+		},
+		"lang-doc": "vi|en",
+		"slug": {
+			"vi": "Tiếng Việt"
+		},
+		"seo": {
+			"vi": "Tiếng Việt"
+		},
+		"comlang": {
+			"gioi-thieu": {
+				"vi": "gioi-thieu",
+				"en": "about-us"
+			},
+			"san-pham": {
+				"vi": "san-pham",
+				"en": "product"
+			},
+			"tin-tuc": {
+				"vi": "tin-tuc",
+				"en": "news"
+			},
+			"tuyen-dung": {
+				"vi": "tuyen-dung",
+				"en": "recruitment"
+			},
+			"thu-vien-anh": {
+				"vi": "thu-vien-anh",
+				"en": "gallery"
+			},
+			"video": {
+				"vi": "video",
+				"en": "video"
+			},
+			"lien-he": {
+				"vi": "lien-he",
+				"en": "contact"
+			}
+		}
+	},
+	"order": {
+		"ship": true,
+		"active": true,
+		"search": true,
+		"excel": false,
+		"word": false,
+		"excelall": false,
+		"wordall": false,
+		"thumb": "100x100x1"
+	},
+	"login": {
+		"admin": "LoginAdmin",
+		"member": "LoginMember",
+		"congtacvien": "CTVMember",
+		"attempt": 5,
+		"delay": 15
+	},
+	"googleAPI": {
+		"recaptcha": {
+			"active": false,
+			"urlapi": "https://www.google.com/recaptcha/api/siteverify",
+			"sitekey": "6LdO58QmAAAAAHpglFW59X7jTZVex6WVjAJzdG69",
+			"secretkey": "6LdO58QmAAAAAPCyOBuOM8T8p6OoP0yi6P-a6iRO"
+		}
+	},
+	"oneSignal": {
+		"active": false,
+		"id": "af12ae0e-cfb7-41d0-91d8-8997fca889f8",
+		"restId": "MWFmZGVhMzYtY2U0Zi00MjA0LTg0ODEtZWFkZTZlNmM1MDg4"
+	},
+	"license": {
+		"version": "7.0.0",
+		"powered": "@gmail.com"
+	},
+	"company": {
+		"design": "",
+		"logo": ""
+	},
+	"shop": {
+		"province_shop": 2,
+		"district_shop": 39,
+		"wards_shop": 731,
+		"cusId": 13317764,
+		"groupaddressId": 15262576,
+		"name": "0975155503",
+		"phone": "0975155503",
+		"address": "97/9 Phạm Thái Bường, P.Tân Phong, Q.7, TP.Hồ Chí Minh"
+	},
+	"data_key": {
+		"USERNAME": "0376069683",
+		"PASSWORD": "Vtp@1234"
+	},
+	"group": [],
+	"product": {
+		"san-pham": {
+			"title_main": "Sản phẩm",
+			"dropdown": true,
+			"list": true,
+			"cat": false,
+			"item": false,
+			"sub": false,
+			"brand": false,
+			"mau": false,
+			"size": false,
+			"tags": false,
+			"import": false,
+			"export": false,
+			"view": true,
+			"khoiluong": true,
+			"copy": true,
+			"copy_image": false,
+			"slug": true,
+			"check": {
+				"noibat": "Tốt nhất",
+				"moi": "Mới",
+				"banchay": "Khuyến mãi",
+				"binhluan": "Hiện bình luận",
+				"hethang": "Hết hàng"
+			},
+			"images": true,
+			"show_images": true,
+			"gallery": {
+				"san-pham": {
+					"title_main_photo": "Hình ảnh sản phẩm",
+					"title_sub_photo": "Hình ảnh",
+					"number_photo": 3,
+					"images_photo": true,
+					"cart_photo": true,
+					"avatar_photo": true,
+					"tieude_photo": true,
+					"width_photo": 600,
+					"height_photo": 600,
+					"thumb_photo": "",
+					"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+				},
+				"video": {
+					"title_main_photo": "Bình luận sản phẩm",
+					"title_sub_photo": "Bình luận",
+					"number_photo": 1,
+					"video_photo": false,
+					"tieude_photo": true,
+					"mota_photo": true,
+					"sao_photo": true,
+					"images_photo": true,
+					"width_photo": 300,
+					"height_photo": 300,
+					"thumb_photo": "",
+					"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+				}
+			},
+			"ma": true,
+			"gia": true,
+			"giamoi": true,
+			"giakm": false,
+			"mota": true,
+			"mota_cke": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 600,
+			"height": 600,
+			"thumb": "100x100x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_list": "Danh mục cấp 1",
+			"icon_list": false,
+			"images_list": true,
+			"show_images_list": true,
+			"slug_list": true,
+			"check_list": [],
+			"gallery_list": [],
+			"mota_list": false,
+			"noidung_list": true,
+			"noidung_cke_list": true,
+			"seo_list": true,
+			"width_list": 300,
+			"height_list": 200,
+			"thumb_list": "100x100x1",
+			"img_type_list": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"width_list_icon": 30,
+			"height_list_icon": 30,
+			"thumb_list_icon": "30x30x2",
+			"title_main_cat": "Danh mục cấp 2",
+			"images_cat": false,
+			"show_images_cat": false,
+			"slug_cat": true,
+			"check_cat": [],
+			"mota_cat": false,
+			"noidung_cat": true,
+			"noidung_cke_cat": true,
+			"seo_cat": true,
+			"width_cat": 300,
+			"height_cat": 200,
+			"thumb_cat": "100x100x1",
+			"img_type_cat": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_item": "danhmuccap3",
+			"images_item": true,
+			"show_images_item": true,
+			"slug_item": false,
+			"check_item": {
+				"noibat": "Nổi bật"
+			},
+			"mota_item": true,
+			"noidung_item": true,
+			"noidung_cke_item": true,
+			"seo_item": true,
+			"width_item": 300,
+			"height_item": 200,
+			"thumb_item": "100x100x1",
+			"img_type_item": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_sub": "Sản phẩm cấp 4",
+			"images_sub": true,
+			"show_images_sub": true,
+			"slug_sub": true,
+			"check_sub": {
+				"noibat": "Nổi bật"
+			},
+			"mota_sub": true,
+			"noidung_sub": true,
+			"noidung_cke_sub": true,
+			"seo_sub": true,
+			"width_sub": 300,
+			"height_sub": 200,
+			"thumb_sub": "100x100x1",
+			"img_type_sub": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		}
+	},
+	"newsletter": {
+		"lien-he": {
+			"title_main": "Thư liên hệ",
+			"file": false,
+			"ten": true,
+			"dienthoai": true,
+			"email": true,
+			"guiemail": false,
+			"diachi": true,
+			"chude": true,
+			"noidung": true,
+			"ghichu": true,
+			"body": false,
+			"tinhtrang": [
+				"Chưa xem",
+				"Đã xem",
+				"Đã liên hệ"
+			],
+			"showten": true,
+			"showdienthoai": true,
+			"showemail": true,
+			"showchude": false,
+			"showdiachi": false,
+			"shownoidung": false,
+			"showngaytao": true,
+			"file_type": "doc|docx|pdf|rar|zip|ppt|pptx|DOC|DOCX|PDF|RAR|ZIP|PPT|PPTX|xls|jpg|png|gif|JPG|PNG|GIF|xls|XLS"
+		}
+	},
+	"news": {
+		"tin-tuc": {
+			"title_main": "Tin tức",
+			"dropdown": true,
+			"list": true,
+			"cat": false,
+			"item": false,
+			"sub": false,
+			"chucvu": false,
+			"tags": false,
+			"view": true,
+			"copy": true,
+			"copy_image": false,
+			"slug": true,
+			"check": {
+				"noibat": "Nổi bật"
+			},
+			"images": true,
+			"show_images": true,
+			"gallery": [],
+			"mota": true,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 400,
+			"height": 250,
+			"thumb": "100x70x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_list": "Danh mục cấp 1",
+			"images_list": false,
+			"show_images_list": false,
+			"slug_list": true,
+			"check_list": [],
+			"gallery_list": [],
+			"mota_list": false,
+			"mota_cke_list": false,
+			"noidung_list": false,
+			"noidung_cke_list": false,
+			"seo_list": true,
+			"width_list": 320,
+			"height_list": 240,
+			"thumb_list": "100x100x1",
+			"img_type_list": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_cat": "Danh mục cấp 2",
+			"images_cat": false,
+			"show_images_cat": false,
+			"slug_cat": true,
+			"check_cat": [],
+			"mota_cat": false,
+			"mota_cke_cat": false,
+			"noidung_cat": false,
+			"noidung_cke_cat": false,
+			"seo_cat": true,
+			"width_cat": 320,
+			"height_cat": 240,
+			"thumb_cat": "100x100x1",
+			"img_type_cat": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_item": "Danh mục cấp 3",
+			"images_item": false,
+			"show_images_item": false,
+			"slug_item": true,
+			"check_item": [],
+			"mota_item": true,
+			"mota_cke_item": true,
+			"noidung_item": true,
+			"noidung_cke_item": true,
+			"seo_item": true,
+			"width_item": 320,
+			"height_item": 240,
+			"thumb_item": "100x100x1",
+			"img_type_item": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp",
+			"title_main_sub": "Danh mục cấp 4",
+			"images_sub": false,
+			"show_images_sub": false,
+			"slug_sub": true,
+			"check_sub": [],
+			"mota_sub": false,
+			"mota_cke_sub": false,
+			"noidung_sub": false,
+			"noidung_cke_sub": false,
+			"seo_sub": true,
+			"width_sub": 320,
+			"height_sub": 240,
+			"thumb_sub": "100x100x1",
+			"img_type_sub": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"su-kien": {
+			"title_main": "Sự kiện",
+			"check": {
+				"noibat": "Nổi bật"
+			},
+			"view": true,
+			"slug": true,
+			"copy": true,
+			"images": true,
+			"show_images": true,
+			"mota": true,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 400,
+			"height": 250,
+			"thumb": "100x70x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"ho-tro": {
+			"title_main": "Hỗ trợ",
+			"check": [],
+			"view": true,
+			"slug": true,
+			"copy": true,
+			"images": true,
+			"show_images": true,
+			"mota": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 40,
+			"height": 40,
+			"thumb": "40x40x2",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"bai-viet-thuong-hieu": {
+			"title_main": "Bài viết thương hiệu",
+			"check": [],
+			"view": true,
+			"slug": true,
+			"copy": true,
+			"images": false,
+			"show_images": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 400,
+			"height": 250,
+			"thumb": "100x70x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"thong-bao": {
+			"title_main": "Thông báo",
+			"check": [],
+			"view": true,
+			"slug": true,
+			"copy": true,
+			"images": false,
+			"show_images": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 400,
+			"height": 250,
+			"thumb": "100x70x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"chinh-sach": {
+			"title_main": "Chính sách",
+			"check": [],
+			"view": true,
+			"slug": true,
+			"copy": true,
+			"images": false,
+			"show_images": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 400,
+			"height": 250,
+			"thumb": "100x70x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"thuong-hieu": {
+			"title_main": "Thương hiệu"
+		},
+		"dong": {
+			"title_main": "Dòng"
+		},
+		"hinh-thuc-thanh-toan": {
+			"title_main": "Hình thức thanh toán",
+			"mota": true,
+			"mota_cke": true,
+			"images": true,
+			"width": 50,
+			"height": 50,
+			"thumb": "50x50x2",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"review": {
+			"title_main": "Review",
+			"check": {
+				"noibat": "Nổi bật"
+			},
+			"view": false,
+			"slug": false,
+			"copy": false,
+			"images": true,
+			"sanpham": true,
+			"show_images": true,
+			"mota": true,
+			"mota_cke": false,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": false,
+			"width": 300,
+			"height": 300,
+			"thumb": "100x100x1",
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+		},
+		"muc-gia": {
+			"title_main": "Mức giá",
+			"gia": true
+		},
+		"slogan": {
+			"title_main": "Slogan",
+			"link": true
+		}
+	},
+	"shownews": 1,
+	"static": {
+		"gioi-thieu": {
+			"title_main": "Giới thiệu",
+			"thongtinthem": false,
+			"so1": false,
+			"so2": false,
+			"so3": false,
+			"so4": false,
+			"so5": false,
+			"images": true,
+			"file": false,
+			"tieude": true,
+			"mota": false,
+			"mota_cke": true,
+			"noidung": true,
+			"noidung_cke": true,
+			"seo": true,
+			"width": 600,
+			"height": 400,
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP",
+			"file_type": "doc|docx|pdf|rar|zip|ppt|pptx|DOC|DOCX|PDF|RAR|ZIP|PPT|PPTX|xls|jpg|png|gif|JPG|PNG|GIF|xls|XLS"
+		},
+		"lien-he": {
+			"title_main": "Liên hệ",
+			"noidung": true,
+			"noidung_cke": true,
+			"images": true,
+			"seo": true,
+			"width": 300,
+			"height": 200,
+			"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP"
+		},
+		"trungtam": {
+			"title_main": "Trung tâm khách hàng",
+			"tieude": true,
+			"noidung": true,
+			"noidung_cke": true
+		},
+		"thong-tin-khac": {
+			"title_main": "Thông tin khác",
+			"tieude": true,
+			"noidung": true,
+			"noidung_cke": true
+		},
+		"footer": {
+			"title_main": "Footer",
+			"tieude": false,
+			"noidung": true,
+			"noidung_cke": true
+		}
+	},
+	"photo": {
+		"photo_static": {
+			"logo": {
+				"title_main": "Logo",
+				"images": true,
+				"width": 100,
+				"height": 60,
+				"thumb": "100x60x2",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"logom": {
+				"title_main": "logomobile",
+				"images": true,
+				"width": 100,
+				"height": 60,
+				"thumb": "100x60x2",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"logo-chia": {
+				"title_main": "Logo chia sẻ",
+				"images": true,
+				"width": 300,
+				"height": 300,
+				"thumb": "100x100x2",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"bannervi": {
+				"title_main": "Banner 1 tiếng việt",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"bannervim": {
+				"title_main": "Banner 1 tiếng việt mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banneren": {
+				"title_main": "Banner 1 tiếng anh",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"bannerenm": {
+				"title_main": "Banner 1 tiếng anh mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"bannerko": {
+				"title_main": "Banner 1 tiếng hàn",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"bannerkom": {
+				"title_main": "Banner 1 tiếng hàn mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2vi": {
+				"title_main": "Banner 2 tiếng việt",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2vim": {
+				"title_main": "Banner 2 tiếng việt mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2en": {
+				"title_main": "Banner 2 tiếng anh",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2enm": {
+				"title_main": "Banner 2 tiếng anh mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2ko": {
+				"title_main": "Banner 2 tiếng hàn",
+				"images": true,
+				"width": 1366,
+				"height": 400,
+				"link": true,
+				"thumb": "200x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"banner2kom": {
+				"title_main": "Banner 2 tiếng hàn mobile",
+				"images": true,
+				"width": 700,
+				"height": 700,
+				"link": true,
+				"thumb": "100x100x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"favicon": {
+				"title_main": "Favicon",
+				"images": true,
+				"width": 48,
+				"height": 48,
+				"thumb": "48x48x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"popup": {
+				"title_main": "Popup",
+				"images": true,
+				"tieude": true,
+				"link": true,
+				"width": 800,
+				"height": 500,
+				"thumb": "800x500x1",
+				"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			}
+		},
+		"man_photo": {
+			"slidevi": {
+				"title_main_photo": "Slider tiếng việt",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 1366,
+				"height_photo": 500,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"slidevim": {
+				"title_main_photo": "Slider tiếng việt mobile",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 720,
+				"height_photo": 865,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"slideen": {
+				"title_main_photo": "Slider tiếng anh",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 1366,
+				"height_photo": 500,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"slideenm": {
+				"title_main_photo": "Slider tiếng anh mobile",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 720,
+				"height_photo": 865,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"slideko": {
+				"title_main_photo": "Slider tiếng hàn",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 1366,
+				"height_photo": 500,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"slidekom": {
+				"title_main_photo": "Slider tiếng hàn mobile",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 720,
+				"height_photo": 865,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"quang-cao": {
+				"title_main_photo": "Quảng cáo",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"tieude_photo": true,
+				"width_photo": 700,
+				"height_photo": 400,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			},
+			"mangxahoi": {
+				"title_main_photo": "Mạng xã hội",
+				"number_photo": 2,
+				"images_photo": true,
+				"avatar_photo": true,
+				"link_photo": true,
+				"width_photo": 30,
+				"height_photo": 30,
+				"thumb_photo": "",
+				"img_type_photo": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+			}
+		}
+	},
+	"seopage": {
+		"page": {
+			"san-pham": "Sản phẩm",
+			"tin-tuc": "Tin tức",
+			"su-kien": "Sự kiện"
+		},
+		"width": 300,
+		"height": 200,
+		"thumb": "300x200x1",
+		"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+	},
+	"setting": {
+		"diachi": true,
+		"dienthoai": true,
+		"hotline": true,
+		"zalo": true,
+		"oaidzalo": false,
+		"email": true,
+		"website": true,
+		"fanpage": true,
+		"toado": false,
+		"toado_iframe": true,
+		"slogan": false,
+		"copyright": true,
+		"chiduong": true,
+		"giohoatdong": false,
+		"soluong_sp": true,
+		"soluong_spk": true,
+		"soluong_tin": true,
+		"soluong_tink": true
+	},
+	"import": {
+		"images": true,
+		"thumb": "100x100x1",
+		"img_type": ".jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF|.WEBP|.webp"
+	},
+	"export": {
+		"category": true
+	},
+	"user": {
+		"active": true,
+		"admin": false,
+		"visitor": true
+	},
+	"permission": false,
+	"places": {
+		"active": false,
+		"placesship": false,
+		"duong": false
+	},
+	"onesignal": false
+}
