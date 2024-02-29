@@ -1,0 +1,186 @@
+.fa-bag-shopping:before, .fa-shopping-bag:before{
+	content: "" !important;
+}
+[role="tooltip"] {
+	z-index: 6;
+}
+.d-center {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+/*#header_#footer*/
+#header, #header * {
+	transition: all 0.2s;
+}
+.bg_style{
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_center{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.div_title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 3.75rem;
+}
+
+.title_txt{
+	font-size: 1.125em;
+}
+
+
+.item_img{
+	position: relative;
+	height: 100%;
+	box-shadow:rgba(233, 212, 255,50%) 0 0 1rem;
+	/*margin-bottom: 2.75rem;*/
+}
+.item_img>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.item_img .img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+/*TODO: FONT SIZE*/
+.f0_5em{
+	font-size: .5em;
+}
+.f1em{
+	font-size: 1em;
+}
+.f1_5em{
+	font-size: 1.5em;
+}
+.f2em{
+	font-size: 2em;
+}
+
+.w_100{
+	width: 100%;
+}
+
+
+html, body, #page {
+	width: 100vw;
+	overflow-x: hidden;
+	color: #000000;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	position:relative;
+	overflow-x: hidden;
+}
+
+img {
+	user-select: none;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+	/*user-select: none;*/
+}
+
+a,[onclick],.btn,button,input{
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	transition: all 0.2s;
+}
+a{
+	color:inherit;
+}
+a:hover{
+	text-decoration:none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+span[style] {
+	font-family: inherit !important;
+	font-size: inherit !important;
+}
+strong{
+	font-weight:bold;
+}
+
+/*todo ALL CSS FOR @pc*/
+@media (min-width: 992px) {
+	/*width:1600px = font-size: 15px*/
+	html, body {
+		font-size:16px;
+	}
+
+	.pc {
+		display: block !important;
+	}
+
+	.mb {
+		display: none !important;
+	}
+
+}
+
+/*todo ALL CSS FOR @table*/
+@media (min-width: 992px) and (max-width: 1600px) {
+}
+
+/*todo ALL CSS FOR @mb*/
+@media (max-width: 991px) {
+	/*width:375px ~ font-size:16px*/
+	html,
+	body {
+		font-size:4.266666666666667vw;
+	}
+	body{
+		padding-top:3.75rem;
+	}
+	.pc {
+		display: none !important;
+	}
+	.mb {
+		display: block !important;
+	}
+
+
+	.fa, .fas, .item_info_note, .txt_1, .procedure_paging .tu, .procedure_paging .mau, .procedure_paging .line {
+		font-size: 1rem;
+	}
+	.style_dot .slick-dots li.slick-active {
+		/* border: 1px solid #0079c0; */
+		border: none;
+	}
+	#page {
+		overflow: hidden;
+	}
+
+
+}
+

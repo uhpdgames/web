@@ -1,0 +1,24 @@
+.fullpage {
+	width: 75rem;
+	max-width: 100% !important;
+
+	align-items: center;
+	vertical-align: middle;
+	margin: auto;
+	justify-content: center;
+}
+.fullpage .ccth_container, .fullpage .container {
+
+	width: 100% !important;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	justify-content: center;
+}
+
+.fullpage .text-content{
+	font-family: 'Noto Sans','Apple SD Gothic Neo',sans-serif !important;
+}
+.fullpage .text-content ul{
+	margin: 0 !important;
+}
